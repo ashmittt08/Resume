@@ -1,0 +1,143 @@
+%------------------------
+% ATS-Optimized Resume Template
+%------------------------
+
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex, hidelinks]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% ATS-friendly section formatting: no \scshape, no decorative elements
+\titleformat{\section}{
+  \vspace{-8pt}\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+% Simple resume item without nested bold+colon formatting
+\newcommand{\resumeItem}[2]{
+  \item\small{\textbf{#1}: #2}
+}
+
+% Subheading: bold name, plain date/location
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2pt}}
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{center}
+  {\LARGE \textbf{Ashmit Saxena}}\\[4pt]
+  saxenaashmit85@gmail.com \textbar{} +91-8873294522\\[2pt]
+  \href{https://www.linkedin.com/in/ashmit-saxena08}{linkedin.com/in/ashmit-saxena08} \textbar{}
+  \href{https://github.com/ashmittt08}{github.com/ashmittt08}
+\end{center}
+
+%-----------EDUCATION-----------------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Vellore Institute of Technology, Bhopal}{Madhya Pradesh, India}
+    {B.Tech, Computer Science (Gaming Technology); CGPA: 8.0/10.0}{November 2023 -- May 2027}
+\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {CodSoft}{Remote}
+    {C++ Programming Intern}{Sep 2024 -- Oct 2024}
+  \resumeItemListStart
+    \item Developed a console-based application (Number Guessing Game) using input validation and control flow logic.
+    \item Built a Student Management System using Object-Oriented Programming (OOP) to manage structured data with CRUD operations.
+  \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Projects}
+\resumeSubHeadingListStart
+
+  \resumeSubheading
+    {MentorBoard -- Internship Collaboration Dashboard}{React, TypeScript, Zustand, Tailwind CSS}
+    {\href{https://github.com/ashmittt08/MentorBoard}{github.com/ashmittt08/MentorBoard}}{}
+  \resumeItemListStart
+    \item Designed and developed a React-based web application to manage tasks, standups, and feedback workflows in a collaborative environment.
+    \item Implemented a drag-and-drop Kanban board using dnd-kit with efficient state management via Zustand.
+    \item Built interactive analytics dashboards using Recharts to visualize task completion and user activity trends.
+    \item Implemented data handling and storage using localStorage, applying database management concepts for structured data.
+    \item Applied problem-solving and debugging techniques to ensure smooth UI interactions and reliable state updates.
+  \resumeItemListEnd
+
+  \resumeSubheading
+    {EcoVerse AR -- Augmented Reality Educational Application}{Unity, CSharp, Vuforia}
+    {\href{https://github.com/ashmittt08/EcoVerse_ar}{\nolinkurl{github.com/ashmittt08/EcoVerse_ar}}}{}
+  \resumeItemListStart
+    \item Developed an AR educational mobile application using Unity and Vuforia, rendering interactive 3D models on image targets.
+    \item Designed UI/UX flow and optimized assets to ensure smooth performance on Android devices.
+  \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------SKILLS-----------------
+\section{Skills}
+\resumeSubHeadingListStart
+  \resumeItem{Programming Languages}{C++, Python, CSharp, JavaScript, HTML, CSS, TypeScript}
+  \resumeItem{Frameworks and Libraries}{React, Zustand, Tailwind CSS, Recharts, dnd-kit}
+  \resumeItem{Tools and Platforms}{Unity, Git, GitHub, VS Code, Postman, Blender, REST APIs}
+  \resumeItem{Core Computer Science Concepts}{Data Structures and Algorithms, Object-Oriented Programming (OOP), Database Management Systems (DBMS), SQL, Problem Solving, Debugging, AR/VR Development, Game Development}
+\resumeSubHeadingListEnd
+
+%-----------POSITIONS OF RESPONSIBILITY-----------------
+\section{Positions of Responsibility}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Virtual Reality and Gaming Club (VRGC), VIT Bhopal}{VIT Bhopal}
+    {Social Media Team Member}{}
+  \resumeItemListStart
+    \item Managed and scheduled content across social media platforms, improving reach and engagement.
+    \item Coordinated promotional campaigns for technical events and workshops, increasing participation and visibility.
+  \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------ACHIEVEMENTS AND CERTIFICATIONS-----------------
+\section{Achievements and Certifications}
+\begin{itemize}[leftmargin=0.15in, label={--}]
+  \item \small{\textbf{Competitive Programming:} Solved 300+ DSA problems across LeetCode, CodeChef, Codeforces, and GeeksforGeeks.}
+  \item \small{\textbf{Codeforces:} Achieved a peak rating of 568.}
+  \item \small{\textbf{Postman API Fundamentals Student Expert} -- Certified in API testing and development workflows.}
+  \item \small{\textbf{NPTEL Elite Certificate} -- Human Computer Interaction (HCI).}
+  \item \small{\textbf{Music:} Senior Diploma in Instrumental (Guitar), Prayag Sangeet Samiti.}
+\end{itemize}
+
+\end{document}
